@@ -1,0 +1,95 @@
+/* font-color */
+.black{
+    color: rgb(41, 41, 41);
+}
+
+.red{
+    color: rgb(255, 62, 62);
+}
+
+/* root */
+body{
+    margin: 0;
+    padding: 100px 0 0 0;
+    background-color: #dbf0ff;
+    color: rgb(100, 100, 100);
+}
+
+/* other */
+#all{
+    width: 940px;
+    background-color: white;
+    margin: auto;
+    padding: 10px 80px 80px 80px;
+    box-shadow: 0px 0px 5px #cecece;
+    box-sizing: border-box;
+}
+
+.progress{
+    display: none;
+    position: fixed;
+    top: 48%;
+    right: 20px;
+    width: 50px;
+    padding: 8px 0 10px 0;
+    background-color: white;
+    box-shadow: 0px 0px 2px #e2e2e2;
+    border-radius: 5px;
+}
+.progress-val{
+    text-align: center;
+    font-size: 10px;
+}
+.progress-body{
+    width: 10px;
+    height: 80px;
+    margin: auto;
+    box-shadow: inset 0px 0px 2px #c7c7c7;
+}
+.progress-full{
+    width: 100%;
+    transition: 0.2s;
+    background-color: #0095ff;
+}
+
+.title{
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+    color: #0095ff;
+}
+
+.preface{
+    font-size: 16px;
+}
+
+.question{
+    margin-bottom: 50px;
+}
+.qu-title{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.option{
+    margin: 0 0 10px 20px;
+    font-size: 16px;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+label:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.submitButton{
+    display: block;
+    padding: 10px 30px 10px 30px;
+    background-color: #0095ff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin: auto;
+}
